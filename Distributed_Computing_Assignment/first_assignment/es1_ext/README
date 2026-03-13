@@ -1,0 +1,13 @@
+PLOT FILE INSIDE THIS DIRECTORY:
+
+[1] plot_algo_w.py: this file plots the w values obtained from the runs of our 5 aglorithms. 
+                    The data are taken from a csv that is passed as input to this file.
+                    The x-axis of this plot corresponds to the number of algorithm is used 
+					while the y-axis corresponds to the w average value.
+
+
+[1] plot_algo_ql.py:  this file plots the probability that a queue is at least length x, run the simulator
+                      with the 5 aglorithms.
+                      The data are taken from a csv that is passed as input to this file.
+                      The x-axis of this plot corresponds to the tail weight  
+				 	  while the y-axis corresponds to the % of we can find a tail with that length.

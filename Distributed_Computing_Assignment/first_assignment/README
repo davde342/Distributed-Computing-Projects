@@ -1,0 +1,5 @@
+This dir contain the follow directory:
+    es1: contain the queue_sim.py code with all the points completed
+    es2: contain the first point that we need to do in sim.py: the queue length Monitor
+    es3: contain the second point that we need to do in sim.py: the Weibull distribution
+    es1_ext: contain the extension that we decide to implement to queue_sim.py 

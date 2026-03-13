@@ -1,0 +1,35 @@
+PLOT FILE INSIDE THIS DIRECTORY:
+
+[1]: plot_time.py: this file plots the average backued up blocks and those to be stored in the system
+% of high priority server with these years: 50, 100, 150, 200, 250, 300, 350, 400.
+The x-axis of each graph corresponds to the % of high-priority servers while the y-axis corresponds to the 
+% of the average number of blocks to be backuped and restored.
+
+[2]: calculate_m_pendency.py: this file is useful for calculate and obtain the slopes value that can be insert
+in the storage.py for calculate automatically the:  % Backup and the % Restore.
+
+[3]: plot_all_combination.py: this file plot the high priority blocks loss and no priority blocks
+loss on % high priority server for all the possible combination of % Backup and  % Restore for a selected YEARS.
+The x-axis of each graph corresponds to the % of high-priority servers while the y-axis corresponds to the % of 
+the average number of blocks that are loss among the high priority servers and not.
+
+[4]: plot_all_perc.py: this file plot all the average backed up high priority blocks % and the average high priorty 
+blocks to restore for every combination of % backed and % restore for a select year.
+The x-axis of each graph corresponds to the % of high-priority servers while the y-axis corresponds to the % of the 
+average number of blocks to be backuped and restored.
+
+[5]: plot_original.py: plot a graph with % of blocks loss when high priority server is equal to 0.
+The x-axis of each graph corresponds to the years of the simulation while the y-axis corresponds to 
+the % of the average number of blocks loss in the system.
+
+[6]: plot_simulator_defined: plot the % of loss blocs for both: priority and not peer for these follow years: 50, 100, 150, 200 and 250.
+The x-axis of each graph corresponds to the % of high-priority servers while the y-axis corresponds to the % of the average number of 
+blocks that are loss among the high priority servers and not.
+
+[7]: plot_avg_bck_res.py: plot all the % of average backed up block and restore block for all the high priority % 												  for a selected year.
+
+[8]: mega_plot.py: plot all the possible graph that result of combination of average % backup and % average restore for 
+every high priority server number for a selected year.
+The x-axis of each graph corresponds to the % of high-priority servers while the y-axis corresponds to the % of the 
+average number of blocks that are loss among the high priority servers and not.
+
